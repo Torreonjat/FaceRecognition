@@ -37,6 +37,9 @@ namespace FaceRecognition
             // 
             // logCam
             // 
+            this.logCam.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.logCam.Location = new System.Drawing.Point(289, 48);
             this.logCam.Name = "logCam";
             this.logCam.Size = new System.Drawing.Size(395, 284);
@@ -45,22 +48,30 @@ namespace FaceRecognition
             // 
             // loginbtn
             // 
+            this.loginbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.loginbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.loginbtn.Location = new System.Drawing.Point(364, 415);
             this.loginbtn.Name = "loginbtn";
             this.loginbtn.Size = new System.Drawing.Size(257, 58);
             this.loginbtn.TabIndex = 2;
             this.loginbtn.Text = "Login";
-            this.loginbtn.UseVisualStyleBackColor = true;
+            this.loginbtn.UseVisualStyleBackColor = false;
             this.loginbtn.Click += new System.EventHandler(this.loginbtn_Click);
             // 
             // registerbtn
             // 
+            this.registerbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.registerbtn.BackColor = System.Drawing.Color.CornflowerBlue;
             this.registerbtn.Location = new System.Drawing.Point(364, 495);
             this.registerbtn.Name = "registerbtn";
             this.registerbtn.Size = new System.Drawing.Size(257, 58);
             this.registerbtn.TabIndex = 3;
             this.registerbtn.Text = "Register";
-            this.registerbtn.UseVisualStyleBackColor = true;
+            this.registerbtn.UseVisualStyleBackColor = false;
             this.registerbtn.Click += new System.EventHandler(this.registerbtn_Click);
             // 
             // Login

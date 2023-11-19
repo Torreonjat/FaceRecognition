@@ -58,32 +58,35 @@ namespace FaceRecognition
             // 
             // opencam
             // 
+            this.opencam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.opencam.Location = new System.Drawing.Point(125, 437);
             this.opencam.Name = "opencam";
             this.opencam.Size = new System.Drawing.Size(241, 83);
             this.opencam.TabIndex = 2;
             this.opencam.Text = "OPEN CAM";
-            this.opencam.UseVisualStyleBackColor = true;
+            this.opencam.UseVisualStyleBackColor = false;
             this.opencam.Click += new System.EventHandler(this.opencam_Click);
             // 
             // saveimg
             // 
+            this.saveimg.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.saveimg.Location = new System.Drawing.Point(480, 437);
             this.saveimg.Name = "saveimg";
             this.saveimg.Size = new System.Drawing.Size(241, 83);
             this.saveimg.TabIndex = 3;
             this.saveimg.Text = "SAVE IMAGE";
-            this.saveimg.UseVisualStyleBackColor = true;
+            this.saveimg.UseVisualStyleBackColor = false;
             this.saveimg.Click += new System.EventHandler(this.saveimg_Click);
             // 
             // detectimg
             // 
+            this.detectimg.BackColor = System.Drawing.Color.Khaki;
             this.detectimg.Location = new System.Drawing.Point(823, 437);
             this.detectimg.Name = "detectimg";
             this.detectimg.Size = new System.Drawing.Size(241, 83);
             this.detectimg.TabIndex = 4;
             this.detectimg.Text = "DETECT IMAGE";
-            this.detectimg.UseVisualStyleBackColor = true;
+            this.detectimg.UseVisualStyleBackColor = false;
             this.detectimg.Click += new System.EventHandler(this.detectimg_Click);
             // 
             // Uname
